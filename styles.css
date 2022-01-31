@@ -1,0 +1,624 @@
+
+/* DESIGN ELEMENTS 
+
+DARK GREEN: #072640
+DARK BLUE: #0C3759
+OFF WHITE: #E8EDF0
+HEADINGS: font-family: dunbar-low, sans-serif;
+PARAGRAPHS: font-family: futura-pt, sans-serif; 
+*/
+
+@import url(https://use.typekit.net/loj0caz.css);
+
+/* GENERAL STYLING */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: futura-pt, sans-serif;
+}
+
+/* LAPTOP VERSION */
+
+/* HEADER AND BANNER AREA */
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header{
+    height: 100px;
+    background: #072640;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+}
+
+.logo{
+    float: left;
+    padding-top: 20px;
+}
+
+nav{
+    float: right;
+    margin: 40px 0;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: futura-pt, sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    padding-right: 15px;
+}
+
+a:hover{
+    color: #79C2CD;
+}
+
+.banner-area{
+    width: 100%;
+    height: 600px;
+    top: 100px;
+    background-image: url(images/backdrop3.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner-area h1{
+    position: absolute;
+    margin-top: 10px;
+    padding-top: 220px;
+    font-size: 60px;
+    font-family: dunbar-low, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    white-space: pre;
+    line-height: 70px;
+}
+
+.banner-area h5{
+    position: absolute;
+    padding-top: 205px;
+    padding-left: 166px;
+    font-size: 20px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.banner-area .btn{
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 165px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: futura-pt, sans-serif;
+    font-size: 17px;
+    color:#E8EDF0;
+    background-color: rgba(1, 62, 106, 0);
+    border: 2px solid #E8EDF0;
+    border-radius: 25px;
+    box-shadow: 0 0rem 1rem rgb(0 0 0 / 20%);
+    transition-duration: 0.2s;
+    cursor: pointer;  
+}
+
+.btn:hover{
+    border: 2px solid #E8EDF0;
+    background-color :#E8EDF0;
+    color: #0C3759;
+}
+
+/* SUSTAINABILITY AND ETHICALITY BOX */
+
+.about-us-box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: #0C3759;
+}
+
+.sustainability-banner{
+    color: white;
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.sustainability-banner img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.sustainability-banner .sus-banner-text{
+    position: relative;
+    left: 140px;
+    width: 50%;
+    height: 330px;
+    padding: 30px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.sustainability-banner h2{
+    font-size: 60px;
+    font-family: dunbar-low, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+.sustainability-banner p.sus-eth{
+    font-size: 60px;
+    font-family: dunbar-low, sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 10px;
+    top: 100px;
+    left: 110px;
+    line-height: 60px;
+}
+
+
+.sustainability-banner p.and{
+    font-family: dunbar-low, sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+    position: absolute;
+    left: 27px;
+    top: 100px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.sustainability-banner p.paragraph{
+    font-size: 20px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    padding-right: 70px;
+    position: absolute;
+    bottom: 70px;
+}
+
+.btn2{
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: futura-pt, sans-serif;
+    font-size: 17px;
+    color:#E8EDF0;
+    background-color: rgba(1, 62, 106, 0);
+    border: 2px solid #E8EDF0;
+    border-radius: 25px;
+    box-shadow: 0 0rem 1rem rgb(0 0 0 / 20%);
+    transition-duration: 0.2s;
+    cursor: pointer; 
+    position: absolute;
+    bottom: 0px;
+}
+
+.btn2:hover{
+    border: 2px solid #E8EDF0;
+    background-color :#E8EDF0;
+    color: #0C3759;
+}
+
+/* TEA HISTORY BOX */
+
+.tea-box{
+    background-color: #072640;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.teacup-banner{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 500px;
+    height: 550px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.tea-history-text{
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.teacup-banner img{
+    position: absolute;
+    left: 220px;
+    bottom: 0;
+}
+
+.tea-history-text .heading5{
+    font-size: 20px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.tea-history-text .heading2{
+    font-size: 60px;
+    font-family: dunbar-low, sans-serif;
+    text-transform: uppercase;
+    line-height: 70px;
+}
+
+.tea-history-text .paragraph {
+    font-size: 20px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.btn3{
+    margin-top: 30px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: futura-pt, sans-serif;
+    font-size: 17px;
+    color:#E8EDF0;
+    background-color: rgba(1, 62, 106, 0);
+    border: 2px solid #E8EDF0;
+    border-radius: 25px;
+    box-shadow: 0 0rem 1rem rgb(0 0 0 / 20%);
+    transition-duration: 0.2s;
+    cursor: pointer; 
+}
+
+.btn3:hover{
+    border: 2px solid #E8EDF0;
+    background-color :#E8EDF0;
+    color: #0C3759;
+}
+
+/* EMAIL FORM AND CONTACT INFO "FOOTER" */
+
+.contact-box{
+    margin: 0 auto;
+    padding-top: 70px;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    background-color: #0C3759;
+    color: white;
+}
+
+.contact-box h4.contact{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.contact-box-child{
+    height: 600px;
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 0;
+    align-items: center;
+}
+
+.email-form{
+    float: left;
+    margin-top: 50px;
+    margin-right: 60px;
+    height: 500px;
+    width: 500px;
+}
+
+
+.contact-info{
+    float: left;
+    white-space: pre;
+}
+
+.contact-info .soMe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100px;
+
+}
+   
+input[type=text], select, textarea {
+        width: 90%;
+        padding: 12px;
+        border: 1px solid white;
+        border-radius: 2px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        background-color: #0C3759;
+      }
+
+      input::placeholder{
+        color: white;
+      }
+
+    input, select, textarea{
+        color: white;
+    }
+
+    textarea{
+        color: white;
+    }
+    
+    input[type=submit] {
+        margin-top: 0;
+        padding: 10px 35px;
+        text-decoration: none;
+        text-align: center;
+        font-family: futura-pt, sans-serif;
+        font-size: 17px;
+        color:#0C3759;
+        background-color: #E8EDF0;
+        border: 2px solid #E8EDF0;
+        border-radius: 25px;
+        box-shadow: 0 0rem 1rem rgb(0 0 0 / 20%);
+        transition-duration: 0.2s;
+        cursor: pointer; 
+      }
+
+      input[type=submit]:hover {
+        background-color: rgba(1, 62, 106, 0);
+        color: white;
+      }
+
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    height: 100px;
+    background: #072640;
+    color: white;
+    text-align: center;
+}
+
+footer h6{
+    padding-top: 35px;
+}
+
+
+/* TABLETS AND LAPTOPS */
+
+@media(min-width: 1000px){
+    .mobile-version-box{
+        display: none;
+    }
+
+    .contact-box-2{
+        display: none;
+    }
+
+}
+
+/* MOBILE */
+
+@media(max-width: 900px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        display: block;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    header {
+        position: relative;
+        justify-content: center;
+    }
+
+
+    .logo {
+        width: 100px;
+        position: absolute;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    .banner-area{
+        width: 100%;
+        height: 1500px;
+        background-color: #0C3759;
+        background-image: url(images/mobile_backdrop.png);
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+        justify-content: center;
+        align-items: center;
+        z-index: 12;
+    }
+
+    .banner-area h5{
+        position: absolute;
+        float: left;
+        margin-left: -110px;
+        padding-top: 135px;
+    }
+
+    .banner-area h1{
+        font-size: 60px;
+        /*line-height: 35px;*/
+        padding-top: 150px;
+        margin-left: -110px;
+    }
+
+    .banner-area .btn{
+        margin-top: 380px;
+        margin-left: 50px;
+    }
+
+    /* HIDDEN THINGS */ 
+
+    .about-us-box {
+        display: none;
+    }
+
+    .tea-box {
+        display: none;
+    }
+
+    /* MIDDLE SECTION */
+
+    .mobile-version-box {
+        background-color: #0C3759;
+        color: white;
+        position: relative;
+        height: 2800px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sustainability-banner-2 {
+        text-align: center;
+    }
+
+    .mobile-version-box img{
+       width: 100%;
+       z-index: 12;
+    }
+
+    .mobile-version-box .tea-history-text-2{
+        margin-top: -1400px;
+        text-align: center;
+        z-index: 1000;
+    }
+
+    .mobile-version-box h2{
+        font-size: 60px;
+        line-height: 65px;
+    }
+
+    .mobile-version-box h5{
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .mobile-version-box p{
+        font-size: 30px;
+    }
+
+.btn4{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: futura-pt, sans-serif;
+    font-size: 17px;
+    color:#E8EDF0;
+    background-color: rgba(1, 62, 106, 0);
+    border: 2px solid #E8EDF0;
+    border-radius: 25px;
+    box-shadow: 0 0rem 1rem rgb(0 0 0 / 20%);
+    transition-duration: 0.2s;
+    cursor: pointer; 
+}
+
+.btn4:hover{
+    border: 2px solid #E8EDF0;
+    background-color :#E8EDF0;
+    color: #0C3759;
+
+}
+
+.btn5{
+     margin-top: 30px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: futura-pt, sans-serif;
+    font-size: 17px;
+    color:#E8EDF0;
+    background-color: rgba(1, 62, 106, 0);
+    border: 2px solid #E8EDF0;
+    border-radius: 25px;
+    box-shadow: 0 0rem 1rem rgb(0 0 0 / 20%);
+    transition-duration: 0.2s;
+    cursor: pointer; 
+    }
+    
+.btn5:hover{
+    border: 2px solid #E8EDF0;
+    background-color :#E8EDF0;
+    color: #0C3759;
+    
+    }
+
+
+
+
+    /* HIDDEN THINGS */
+
+    .contact-box{
+        display: none;
+    }
+
+    /* EMAIL FORM */
+
+    .contact-box-2{
+        background-color: #0C3759;
+        margin-top: 1px;
+        color: white;
+        width: 100%;
+        height: 800px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .email-form-2{
+        width: 300px;
+    }
+
+    .contact-info-2{
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .soMe-2{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .soMe-2 img{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+
+}
